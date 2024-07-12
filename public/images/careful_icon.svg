@@ -1,0 +1,11 @@
+<svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+  <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="106" height="106" fill="none"/>
+  <g id="Group_7" data-name="Group 7" transform="translate(0 6)">
+    <path id="Fill_1" data-name="Fill 1" d="M106,94.452H0L53.447,0ZM53.411,10.217,8.573,89.453H97.5Z" transform="translate(0 0)" fill="#00c8e1"/>
+    <path id="Fill_2" data-name="Fill 2" d="M88.922,79.234H0L44.836,0ZM44.8,10.218,8.574,74.234H80.418Z" transform="translate(8.574 10.218)" fill="#153c3f"/>
+    <path id="Fill_3" data-name="Fill 3" d="M0,10H5V0H0Z" transform="translate(48 69.867)" fill="#00c8e1"/>
+    <path id="Fill_4" data-name="Fill 4" d="M0,10H5V0H0Z" transform="translate(53 69.867)" fill="#153c3f"/>
+    <path id="Fill_5" data-name="Fill 5" d="M0,0V25.8H5V5Z" transform="translate(48 38.868)" fill="#00c8e1"/>
+    <path id="Fill_6" data-name="Fill 6" d="M0,0V20.8H5V5Z" transform="translate(53 43.868)" fill="#153c3f"/>
+  </g>
+</svg>
