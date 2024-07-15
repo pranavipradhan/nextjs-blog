@@ -7,6 +7,12 @@ import FindBranch from "./components/findBranch";
 import Head from "next/head";
 import Movinghouse from "./components/movinghouse";
 
+import HeroBanner from "./components/heroBanner";
+import CovidBanner from "./components/covidBanner";
+// import "../src/css/main.module.css";
+import "../../styles/Home.module.css";
+import Head from "next/head";
+import Services from "./components/services";
 
 const Layout = ({ children }) => {
   return (
@@ -19,12 +25,18 @@ const Layout = ({ children }) => {
         <link href="/css/fonts.css" rel="stylesheet"/>
         <link href="/css/jquery.fancybox.css" rel="stylesheet"/>
       </Head>
+      <Head>
+        <link href="../" />
+      </Head>
       <Header />
       <Movinghouse/>
       <FindBranch/>
       <Downloadapp/>
       <Contact/>
       <Footer/>
+      <HeroBanner />
+      <CovidBanner />
+      <Services />
       {children}
     </div>
   );
