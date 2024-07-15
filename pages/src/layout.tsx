@@ -5,6 +5,7 @@ import CovidBanner from "./components/covidBanner";
 // import "../src/css/main.module.css";
 import "../../styles/Home.module.css";
 import Head from "next/head";
+import Services from "./components/services";
 
 const Layout = ({ children }) => {
   return (
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <Header />
       <HeroBanner />
       <CovidBanner />
+      <Services />
       {children}
     </div>
   );
