@@ -12,10 +12,14 @@ const Header: React.FC = () => {
                   <a href="/en/">Individuals</a>
                 </li>
                 <li id="enterprise">
-                  <a href="/en/enterprise">Enterprise</a>
+                  <a href="https://splonline.com.sa/en/enterprise/">
+                    Enterprise
+                  </a>
                 </li>
                 <li id="government">
-                  <a href="/en/government">Government</a>
+                  <a href="https://splonline.com.sa/en/government/">
+                    Government
+                  </a>
                 </li>
               </ul>
             </div>
@@ -43,14 +47,20 @@ const Header: React.FC = () => {
                 className="desktop_view"
                 id="scrollToBranch"
               >
-                <img src="/Design/images/branch_icon.svg" alt="" />
+                <img
+                  src="https://splonline.com.sa/Design/images/branch_icon.svg"
+                  alt=""
+                />
               </a>
               <button
                 type="button"
                 title="Search"
                 className="search_btn desktop_view btn-srch"
               >
-                <img src="/Design/images/search_icon.svg" alt="" />
+                <img
+                  src="https://splonline.com.sa/Design/images/search_icon.svg"
+                  alt=""
+                />
               </button>
 
               <a
@@ -104,7 +114,7 @@ const Header: React.FC = () => {
               <ul
                 id="menu"
                 className="menuIndividual"
-                style={{ display: "none" }}
+                // style={{ display: "none" }}
               >
                 <li className="menuMobile">
                   <span>Individuals</span>

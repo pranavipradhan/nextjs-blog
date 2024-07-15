@@ -71,7 +71,7 @@ const HeroBanner: React.FC = () => {
           <div className="col">
             <img
               className="hero_banner_img aos-init aos-animate"
-              src="/media/2326/3.jpg"
+              src="https://splonline.com.sa/media/2326/3.jpg"
               alt=""
               data-udi="umb://media/779c32db79984ce09d015f18663689bd"
               data-aos="fade-left"

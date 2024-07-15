@@ -28,14 +28,15 @@ const Layout = ({ children }) => {
         <link href="../" />
       </Head>
       <Header />
+      <HeroBanner />
+      <CovidBanner />
+      <Services />
       <Movinghouse />
       <FindBranch />
       <Downloadapp />
       <Contact />
       <Footer />
-      <HeroBanner />
-      <CovidBanner />
-      <Services />
+
       {children}
     </div>
   );
