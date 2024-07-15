@@ -11,29 +11,28 @@ import HeroBanner from "./components/heroBanner";
 import CovidBanner from "./components/covidBanner";
 // import "../src/css/main.module.css";
 import "../../styles/Home.module.css";
-import Head from "next/head";
 import Services from "./components/services";
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <Head  >
+      <Head>
         <title>Home | Saudi Post | SPL</title>
-        <link href="/css/main.css" rel="stylesheet"/>
-        <link href="/css/en.css" rel="stylesheet"/>
-        <link href="/css/aos.css" rel="stylesheet"/>
-        <link href="/css/fonts.css" rel="stylesheet"/>
-        <link href="/css/jquery.fancybox.css" rel="stylesheet"/>
+        <link href="/css/main.css" rel="stylesheet" />
+        <link href="/css/en.css" rel="stylesheet" />
+        <link href="/css/aos.css" rel="stylesheet" />
+        <link href="/css/fonts.css" rel="stylesheet" />
+        <link href="/css/jquery.fancybox.css" rel="stylesheet" />
       </Head>
       <Head>
         <link href="../" />
       </Head>
       <Header />
-      <Movinghouse/>
-      <FindBranch/>
-      <Downloadapp/>
-      <Contact/>
-      <Footer/>
+      <Movinghouse />
+      <FindBranch />
+      <Downloadapp />
+      <Contact />
+      <Footer />
       <HeroBanner />
       <CovidBanner />
       <Services />
