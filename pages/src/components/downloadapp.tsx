@@ -16,11 +16,11 @@ const Downloadapp: React.FC = () => {
          <div className="container">
           <div className="flex_me">
             <div className="col">
-              <Image src="./images/spl-app-new.png" alt="spl-app-new" height={100} width={100} />
-              </div>
-              {/* <Image className="aos-init aos-animate" src="./images/spl-app-new.png" alt="spl-app-new" height={627} width={353} data-aos="fade-left" data-aos-delay="1300" /></div> */}
+              {/* <Image src="./images/spl.png" alt="spl" height={100} width={100} />
+              </div> */}
+              <Image className="aos-init aos-animate" src="/images/spl.png" alt="spl-app-new" height={627} width={353} data-aos="fade-left" data-aos-delay="1300" /></div>
             <div className="col aos-init aos-animate" data-aos="fade-left" data-aos-delay="1500">
-              <Image src="./images/app_icon.png" alt="app_icon" width={120} height={120} /> 
+              <Image src="/images/app_icon.png" alt="app_icon" width={120} height={120} /> 
               <span>Download the SPL online</span>
               <p>Introducing our new Saudi post-SPL redesigned app that provides you with the best experience! We’ve made updates to keep your experience smooth, easy and always up to date.</p>
               <div className="section_btns"><a rel="noopener" href="https://apps.apple.com/sa/app/saudi-post/id494312967" target="_blank">

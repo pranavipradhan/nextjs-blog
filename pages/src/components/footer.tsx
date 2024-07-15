@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer: React.FC = () => {
@@ -127,27 +128,27 @@ const Footer: React.FC = () => {
 
                         </div>
 
-                        {/* <div className="col">
+                        <div className="col">
                             <div className="flex_me social_links">
-                                <a href="https://www.facebook.com/SPL.KSA.online" target="_blank" rel="nofollow noreferrer noopener" > <img src="/Design/images/facebook.svg" alt="https://www.facebook.com/SPL.KSA.online" /></a>
-                                <a href="https://twitter.com/SPL_KSA_online" target="_blank" rel="nofollow noreferrer noopener"  > <img src="/Design/images/twitter-x.svg" height="34" style="height:34px;" alt="https://twitter.com/SPL_KSA_online" /></a>
-                                <a href="https://www.youtube.com/user/saudipostch?feature=results_main" target="_blank" rel="nofollow noreferrer noopener"  > <img src="/Design/images/youtube.svg" alt="https://www.youtube.com/user/saudipostch?feature=results_main" /></a>
-                                <a href="https://www.linkedin.com/company/spl-ksa-online" target="_blank" rel="nofollow noreferrer noopener" > <img src="/Design/images/linkedin.svg" alt="https://www.linkedin.com/company/spl-ksa-online" /></a>
-                                <a href="https://instagram.com/spl_ksa_online?igshid=bv6ew3eo4lui" target="_blank" rel="nofollow noreferrer noopener" > <img src="/Design/images/instagram.svg" alt="https://instagram.com/spl_ksa_online?igshid=bv6ew3eo4lui" /></a>
-                                <a href="https://api.whatsapp.com/send?phone=966112898888" target="_blank" rel="nofollow noreferrer noopener"> <img src="/Design/images/whatsapp.png" width="22" height="22" alt="966112898888" /></a>
+                                <a href="https://www.facebook.com/SPL.KSA.online" target="_blank" rel="nofollow noreferrer noopener" > <Image src="/images/facebook.svg" alt="https://www.facebook.com/SPL.KSA.online" /></a>
+                                <a href="https://twitter.com/SPL_KSA_online" target="_blank" rel="nofollow noreferrer noopener"  > <Image src="/images/twitter-x.svg" style={{height:'34px'}} alt="https://twitter.com/SPL_KSA_online" /></a>
+                                <a href="https://www.youtube.com/user/saudipostch?feature=results_main" target="_blank" rel="nofollow noreferrer noopener"  > <Image src="/images/youtube.svg" alt="https://www.youtube.com/user/saudipostch?feature=results_main" /></a>
+                                <a href="https://www.linkedin.com/company/spl-ksa-online" target="_blank" rel="nofollow noreferrer noopener" > <Image src="/images/linkedin.svg" alt="https://www.linkedin.com/company/spl-ksa-online" /></a>
+                                <a href="https://instagram.com/spl_ksa_online?igshid=bv6ew3eo4lui" target="_blank" rel="nofollow noreferrer noopener" > <Image src="/images/instagram.svg"  alt="https://instagram.com/spl_ksa_online?igshid=bv6ew3eo4lui" /></a>
+                                <a href="https://api.whatsapp.com/send?phone=966112898888" target="_blank" rel="nofollow noreferrer noopener"> <Image src="/images/whatsapp.png" width={22} height={22} alt="966112898888" /></a>
                             </div>
 
                             <div className="download-apps">
-                                <a href="https://play.google.com/store/apps/details?id=sa.com.SP"><img src="/Design/images/google_play_btn.svg" alt=""></a>
-                                <a href="https://apps.apple.com/sa/app/saudi-post/id494312967"><img src="/Design/images/app_store_btn.svg" alt=""></a>
+                                <a href="https://play.google.com/store/apps/details?id=sa.com.SP"><Image src="/images/google_play_btn.svg" alt="" width={136} height={40}/></a>
+                                <a href="https://apps.apple.com/sa/app/saudi-post/id494312967"><Image src="/images/app_store_btn.svg" alt="" width={136} height={40}/></a>
                             </div>
                             <div className="mt-4">
                                 <a href="https://splonline.com.sa/media/2444/vat-certificate.pdf" target="_blank" rel="nofollow noreferrer noopener">
-                                    <img src="/images/vat-logo.png" alt="" width="74" height="95" className="img-fluid" />
+                                    <Image src="/images/vat-logo.png" alt="" width={74} height={95} className="img-fluid" />
                                 </a>
 
                             </div>
-                        </div> */}
+                        </div>
 
                     </div>
                     <div className="flex_me align-items-center copyright">
@@ -157,7 +158,7 @@ const Footer: React.FC = () => {
                         </ul>
                         <div className="d-flex align-items-center">
                             <p className="mr-4">© 2024 All rights reserved to  Saudi Post | SPL</p>
-                            <a href="https://www.vision2030.gov.sa/ar" target="_blank"><img src="/images/v2030.png" width="100" height="67" className="img-fluid" alt="Vision 2030" /></a>
+                            <a href="https://www.vision2030.gov.sa/ar" target="_blank"><Image src="/images/v2030.png" width={100} height={67} className="img-fluid" alt="Vision 2030" /></a>
                         </div>
                     </div>
                 </div>

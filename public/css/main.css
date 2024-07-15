@@ -374,7 +374,7 @@ a.linear_btn:hover,button.linear_btn:hover {
 }
 
 .track_trace {
-    background: #fff url(../../design/images/track_icon.svg) no-repeat 93% 3.5rem;
+    background: #fff url(/images/track_icon.svg) no-repeat 93% 3.5rem;
     border-radius: 3px;
     padding: 2.5rem;
     box-shadow: 0 0 25px rgb(0 0 0 / 9%);
@@ -655,7 +655,7 @@ svg.active .svg-elem-10 {
 }
 
 .branch_finder {
-    background: #fff url(../../design/images/track_icon.svg) no-repeat 93% 2.5rem
+    background: #fff url(/images/track_icon.svg) no-repeat 93% 2.5rem
 }
 
 .branch_finder a.btn_noBG:after {
@@ -950,7 +950,8 @@ footer p {
 }
 
 .slicknav_menu {
-    *zoom:1;font-size: 16px;
+    zoom:1;
+    font-size: 16px;
     background: #4c4c4c;
     padding: 5px
 }
@@ -2683,7 +2684,7 @@ a.linear_btn_green:hover {
 }
 
 .track_shipment_box {
-    background: #fff url(../../design/images/track_icon.svg) no-repeat 97% 2.5rem
+    background: #fff url(/images/track_icon.svg) no-repeat 97% 2.5rem
 }
 
 .track_shipment_box .flex_me {
